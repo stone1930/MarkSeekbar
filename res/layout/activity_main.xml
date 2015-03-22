@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="#EFF8FB" >
+
+    <com.flyersea.markseekbar.MarkSeekBar
+        android:id="@+id/seekBar0"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:max="100"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:progress="0"
+        android:progressDrawable="@android:color/transparent"
+        android:thumb="@drawable/thumb_bar"/>
+
+
+</RelativeLayout>
